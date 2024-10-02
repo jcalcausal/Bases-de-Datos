@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C890B7AF-229A-429C-CB5B-EA4417235A73" name="Centro">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:02:04 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0ACEC86E-1906-4FA3-C98A-6187ED70616E">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:02:11 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="6845F3D6-AF38-030A-E144-F361FDB6E5FD">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:04:30 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F4896884-9B0C-C7A5-750B-201ED8CA8456">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:05:03 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="C80D2686-744C-2108-1C3F-6960539330BF">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:12:32 UTC</createdTime>
+<generatorID>D3BAB9A9-A961-5F47-CAFF-3255074FB6D0</generatorID>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<referedAttribute>F076CC8D-C0BF-A8F9-3478-910608BD38F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B06A29B5-C8CC-E212-1740-79138ED2FA57" name="Centro PK">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:02:23 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0ACEC86E-1906-4FA3-C98A-6187ED70616E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A4E4CC51-2127-DAF8-9012-4DF181F88272" name="Nombre_unico">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:05:44 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<newElementsIDs>F4896884-9B0C-C7A5-750B-201ED8CA8456</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

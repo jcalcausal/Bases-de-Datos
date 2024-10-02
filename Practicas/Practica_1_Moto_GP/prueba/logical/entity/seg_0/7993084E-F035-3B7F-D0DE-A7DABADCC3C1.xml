@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7993084E-F035-3B7F-D0DE-A7DABADCC3C1" name="Departamento">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:14:23 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="AAC6607D-A2FE-7D82-E098-53656C767500">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:14:29 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="7F8DA11F-9F36-9CD0-75F5-7C746BBA0653">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:21:42 UTC</createdTime>
+<generatorID>68F31E55-F216-F4BE-BE26-F42D1905686F</generatorID>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<referedAttribute>0ACEC86E-1906-4FA3-C98A-6187ED70616E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C57F6C85-75E2-FB51-F1B3-B82F1EC0907F" name="Departamento PK">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-02 07:15:39 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<engineerTo>
+<item key="928B2197-D4F4-E95F-73D1-0D126D228767" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F8DA11F-9F36-9CD0-75F5-7C746BBA0653</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
