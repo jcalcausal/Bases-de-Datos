@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57EED6A4-18C5-7245-7AB0-AA0426F8CFE9" name="ACTO_PILOTO">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:24 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACTO_PUBLICO_fecha" id="51EED989-7672-1A51-99A9-F0416CAD3C6F">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:24 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFAE9446-0853-E1D8-F093-B14334FCD432" referredColumn="BD4E0FCD-5E6C-E87F-FEBF-D51F165D5DFB"/>
+</associations>
+</Column>
+<Column name="PILOTO_nombre" id="0C8FC106-8442-B776-8EDB-FE55FC2A9F8F">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:24 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D15AD427-5E2B-B081-9298-FDB08902F9F8" referredColumn="ED14FAAD-3FD8-1E29-F5A1-518A8BE3694D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C227D0E6-D0A7-21A6-A903-95141FBE4DCB" name="ACTO_PILOTO_PK">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:24 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51EED989-7672-1A51-99A9-F0416CAD3C6F"/>
+<colUsage columnID="0C8FC106-8442-B776-8EDB-FE55FC2A9F8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="379FFEFB-DF70-2E51-BBC3-E15CCD4D6768" name="ACTO_PILOTO_ACTO_PUBLICO_FK">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:24 UTC</createdTime>
+<generatorID>30840903-C89B-9BAE-E990-0DC98089FC29</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51EED989-7672-1A51-99A9-F0416CAD3C6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7AF599F-E938-C8F3-8726-B888AD6376BE" name="ACTO_PILOTO_PILOTO_FK">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:24 UTC</createdTime>
+<generatorID>30840903-C89B-9BAE-E990-0DC98089FC29</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C8FC106-8442-B776-8EDB-FE55FC2A9F8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

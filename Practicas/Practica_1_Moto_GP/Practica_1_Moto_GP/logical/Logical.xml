@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9B95DF07-8B2C-9C6C-0B09-FF7F4DF32ED3" mainViewID="00C5E2B2-124B-16C2-48DE-26BD2A895EB5">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 16:54:01 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

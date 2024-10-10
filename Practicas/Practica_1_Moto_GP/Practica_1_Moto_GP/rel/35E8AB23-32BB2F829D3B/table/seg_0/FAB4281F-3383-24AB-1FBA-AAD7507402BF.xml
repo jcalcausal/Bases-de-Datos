@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAB4281F-3383-24AB-1FBA-AAD7507402BF" name="ACTO_PUBLICO">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:23 UTC</createdTime>
+<generatorID>BBE43D40-8B56-5956-75E8-1BE2C102483A</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha" id="BD4E0FCD-5E6C-E87F-FEBF-D51F165D5DFB">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:23 UTC</createdTime>
+<generatorID>8907F5DC-9000-7B1E-D7A9-A10FC80CC2E6</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="53FEA4B4-92B7-FE24-6323-5F41CDA51308">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:23 UTC</createdTime>
+<generatorID>BC04018D-B355-33BE-92DA-6FF768B73370</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="35C548DC-3802-C497-9F96-53CDE072D3C5">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:23 UTC</createdTime>
+<generatorID>5E1D2861-078D-A793-BBC8-88878C5EFA42</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="persona_contacto" id="6857E7BD-00CD-31C2-4A56-6F60E9131032">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:23 UTC</createdTime>
+<generatorID>8B459F04-CF79-FE24-0D80-9EF8EA5B04A1</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_contacto" id="D29FEE63-C8B5-8746-2213-5E9949B59812">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:23 UTC</createdTime>
+<generatorID>38C83718-9E6B-7D41-B704-B0A1F9BF807D</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B952C5AD-7375-3720-4A21-BD1CB3CD2027" name="ACTO_PUBLICO_PK">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:35:24 UTC</createdTime>
+<generatorID>0B62242A-09BF-2DD0-0A05-F98AFC38DE26</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD4E0FCD-5E6C-E87F-FEBF-D51F165D5DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

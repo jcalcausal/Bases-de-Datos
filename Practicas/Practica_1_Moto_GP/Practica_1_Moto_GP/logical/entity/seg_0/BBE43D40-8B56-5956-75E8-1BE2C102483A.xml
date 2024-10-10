@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBE43D40-8B56-5956-75E8-1BE2C102483A" name="ACTO_PUBLICO">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:19:32 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha" id="8907F5DC-9000-7B1E-D7A9-A10FC80CC2E6">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:20:39 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="BC04018D-B355-33BE-92DA-6FF768B73370">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:21:17 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="5E1D2861-078D-A793-BBC8-88878C5EFA42">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:25:55 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="persona_contacto" id="8B459F04-CF79-FE24-0D80-9EF8EA5B04A1">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:26:16 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_contacto" id="38C83718-9E6B-7D41-B704-B0A1F9BF807D">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:26:36 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B62242A-09BF-2DD0-0A05-F98AFC38DE26" name="ACTO_PUBLICO PK">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:21:03 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8907F5DC-9000-7B1E-D7A9-A10FC80CC2E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

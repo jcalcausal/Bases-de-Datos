@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Practica_1_Moto_GP" id="DDDF4D9C-C4D3-2402-B469-EE9FA65AA6D1" version="3.5">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 16:54:01 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DDDF4D9C-C4D3-2402-B469-EE9FA65AA6D1</designId>
+</OSDM_Design>
