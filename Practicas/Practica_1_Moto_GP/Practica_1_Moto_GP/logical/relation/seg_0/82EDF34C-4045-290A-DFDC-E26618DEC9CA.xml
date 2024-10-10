@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIRECCION" directorySegmentName="seg_0" id="82EDF34C-4045-290A-DFDC-E26618DEC9CA">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 18:27:45 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<sourcePk>E3A16C71-9E64-978A-188F-2C0EFFAEF311</sourcePk>
+<targetPk>42BE3426-833B-2AF0-5580-BB5B950C2365</targetPk>
+<identifying>false</identifying>
+<nameOnSource>DIRIGE</nameOnSource>
+<nameOnTarget>ES DIRIGIDO</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>99DDBCEC-66B7-10A6-37D7-02BDE3918C65</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>20472498-C64E-AA12-A0E5-2F9518706D20</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBE43D40-8B56-5956-75E8-1BE2C102483A" name="ACTO_PUBLICO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18452667-5E03-ED90-2D6E-162A90415821" name="TRAMO">
 <createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:19:32 UTC</createdTime>
+<createdTime>2024-10-10 18:38:21 UTC</createdTime>
 <ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
 <engineerTo>
 <item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
@@ -15,21 +15,34 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="fecha" id="8907F5DC-9000-7B1E-D7A9-A10FC80CC2E6">
+<Attribute name="codigo" id="0035ED3F-969A-29CE-3BF6-25046F553C3A">
 <createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:20:39 UTC</createdTime>
+<createdTime>2024-10-10 18:38:27 UTC</createdTime>
 <ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
 <engineerTo>
 <item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="direccion" id="BC04018D-B355-33BE-92DA-6FF768B73370">
+<Attribute name="diferencia_altura" id="9A4EF274-B5EE-5859-851E-09E3415DF1A0">
 <createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:21:17 UTC</createdTime>
+<createdTime>2024-10-10 18:38:37 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_asfalto" id="E1D108B6-03B7-5592-9B15-9EB09B4413E1">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 18:38:48 UTC</createdTime>
 <ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
 <engineerTo>
 <item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
@@ -41,9 +54,9 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descripcion" id="5E1D2861-078D-A793-BBC8-88878C5EFA42">
+<Attribute name="velocidad_media" id="26F5EF48-813F-75AE-4142-8BF74F6E8CF9">
 <createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:25:55 UTC</createdTime>
+<createdTime>2024-10-10 18:39:03 UTC</createdTime>
 <ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
 <engineerTo>
 <item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
@@ -51,51 +64,36 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="persona_contacto" id="8B459F04-CF79-FE24-0D80-9EF8EA5B04A1">
+<Attribute name="nombre" id="6B0BD7B9-F89D-BCE5-6FAF-31DC663CC843">
 <createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:26:16 UTC</createdTime>
+<createdTime>2024-10-10 18:52:25 UTC</createdTime>
+<generatorID>134F4A6A-BC89-E77F-9F67-2170325436F8</generatorID>
 <ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
 <engineerTo>
 <item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3A51C298-D284-CC5C-BC30-1C5F955523EF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="numero_contacto" id="38C83718-9E6B-7D41-B704-B0A1F9BF807D">
-<createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:26:36 UTC</createdTime>
-<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0B62242A-09BF-2DD0-0A05-F98AFC38DE26" name="ACTO_PUBLICO PK">
+<identifier id="36E84FFC-4C78-DF9C-34DB-3173DBD519F5" name="TRAMO PK">
 <createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:21:03 UTC</createdTime>
+<createdTime>2024-10-10 18:38:35 UTC</createdTime>
 <ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="false"/>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8907F5DC-9000-7B1E-D7A9-A10FC80CC2E6</attributeRef>
+<attributeRef>0035ED3F-969A-29CE-3BF6-25046F553C3A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CIRCUITO_CARRERA" directorySegmentName="seg_0" id="1BC035F4-4A4C-7813-9EDA-55DCC5DC9D21">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 18:51:41 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<sourcePk>1D32D2AD-1CF6-ADA7-9121-51E16E7D930A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76C9F380-C0D2-A7D3-950B-5CC156BE440B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>581F243C-805C-4540-FF66-0E8E53D9A131</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

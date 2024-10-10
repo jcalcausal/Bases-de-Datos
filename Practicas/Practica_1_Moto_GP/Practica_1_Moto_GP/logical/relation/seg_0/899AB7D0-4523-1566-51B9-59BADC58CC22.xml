@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRAMO_TIEMPOS" directorySegmentName="seg_0" id="899AB7D0-4523-1566-51B9-59BADC58CC22">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 18:52:04 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<sourcePk>36E84FFC-4C78-DF9C-34DB-3173DBD519F5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18452667-5E03-ED90-2D6E-162A90415821</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E836249F-3985-2103-FE28-C0BE0B3E29A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

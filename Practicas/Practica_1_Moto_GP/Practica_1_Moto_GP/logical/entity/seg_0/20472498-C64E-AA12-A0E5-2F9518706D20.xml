@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4ABEE158-4D1B-04E9-A0D8-10EF11FE398E" name="PILOTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20472498-C64E-AA12-A0E5-2F9518706D20" name="EQUIPO">
 <createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 16:58:11 UTC</createdTime>
+<createdTime>2024-10-10 17:40:01 UTC</createdTime>
 <ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
 <engineerTo>
 <item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
@@ -15,127 +15,144 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="nombre" id="5F5481DD-A0D4-B4A5-395C-B58E7E86D02B">
+<Attribute name="nombre" id="CA2812B0-AE04-CD2B-228F-554517452C51">
 <createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:06:08 UTC</createdTime>
+<createdTime>2024-10-10 17:40:14 UTC</createdTime>
 <ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
 <engineerTo>
 <item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dorsal" id="1D3FD46E-B307-D406-031A-FE0F3BE93CD6">
-<createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:06:54 UTC</createdTime>
-<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="pais" id="4CB29E63-0304-7B5C-5F9C-8D3F8D3F0CCE">
-<createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:10:33 UTC</createdTime>
-<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ciudad" id="090600A4-EDE7-4AA1-C166-858A6E2D3F74">
-<createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:11:07 UTC</createdTime>
-<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="peso" id="653C172B-59FA-302E-F127-5D437D5E77A5">
-<createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:14:11 UTC</createdTime>
-<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="altura" id="B549F814-2BAF-1D8D-24CA-7D30DCC56DED">
-<createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:16:55 UTC</createdTime>
-<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nombre1" id="E72E2DAB-2F57-A4AC-AC45-09AAF15D066B">
-<createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 18:02:48 UTC</createdTime>
-<generatorID>4E3276A7-EF1E-2E57-F8DF-36E1A1A0642D</generatorID>
-<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
-</engineerTo>
-<referedAttribute>CA2812B0-AE04-CD2B-228F-554517452C51</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="modelo_moto" id="05CE7C3F-16A3-BA78-4F9B-B9A494577CB3">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:40:30 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="FFC02AFC-8655-0F50-5D8D-E718794E2FBD">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:40:55 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="web" id="762D53BD-73AF-B8A5-8AC0-25EABC2D81F4">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:41:17 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_objetivos" id="467E8089-1038-AE1C-71A0-A39B281ED3D3">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:41:31 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto_oficial" id="7919923A-D8CE-D0C7-C7CA-4BD33BB12143">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:42:01 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logo" id="2D8A7576-037C-3105-619D-9FBD8ECAEF4A">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 17:43:10 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="8B8FB9B4-FE8A-AA8C-99EA-5D33E417489A">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 18:27:45 UTC</createdTime>
+<generatorID>82EDF34C-4045-290A-DFDC-E26618DEC9CA</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>98C08FF1-E750-9B0A-B6E7-9C87A6690B5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre2" id="8DA61E13-359E-407C-3F5D-E35C41EB926F">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 18:29:25 UTC</createdTime>
+<generatorID>82EDF34C-4045-290A-DFDC-E26618DEC9CA</generatorID>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AC88C243-52B4-CA19-5A16-DFB2AB363CA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="70AD1A64-7B57-2D43-99E2-123BE60B5948" name="PILOTO PK">
+<identifier id="42BE3426-833B-2AF0-5580-BB5B950C2365" name="EQUIPO PK">
 <createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:06:15 UTC</createdTime>
+<createdTime>2024-10-10 17:40:28 UTC</createdTime>
 <ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="false"/>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5F5481DD-A0D4-B4A5-395C-B58E7E86D02B</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="82CD3B2A-84BA-D90A-2DAE-627A24BC7196" name="DORSAL_U">
-<createdBy>jcalc</createdBy>
-<createdTime>2024-10-10 17:09:38 UTC</createdTime>
-<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="false"/>
-</engineerTo>
-<newElementsIDs>1D3FD46E-B307-D406-031A-FE0F3BE93CD6</newElementsIDs>
-<usedAttributes>
-<attributeRef>1D3FD46E-B307-D406-031A-FE0F3BE93CD6</attributeRef>
+<attributeRef>CA2812B0-AE04-CD2B-228F-554517452C51</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

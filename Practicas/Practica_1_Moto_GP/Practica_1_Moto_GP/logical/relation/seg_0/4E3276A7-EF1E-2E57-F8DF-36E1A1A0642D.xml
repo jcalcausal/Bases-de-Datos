@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PILOTO_EQUIPO" directorySegmentName="seg_0" id="4E3276A7-EF1E-2E57-F8DF-36E1A1A0642D">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 18:02:48 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<sourcePk>42BE3426-833B-2AF0-5580-BB5B950C2365</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>TIENE</nameOnSource>
+<nameOnTarget>ASOCIADO A</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20472498-C64E-AA12-A0E5-2F9518706D20</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4ABEE158-4D1B-04E9-A0D8-10EF11FE398E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

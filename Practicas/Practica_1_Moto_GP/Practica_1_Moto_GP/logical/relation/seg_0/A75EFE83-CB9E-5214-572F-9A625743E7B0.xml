@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLEADO_TRABAJO" directorySegmentName="seg_0" id="A75EFE83-CB9E-5214-572F-9A625743E7B0">
+<createdBy>jcalc</createdBy>
+<createdTime>2024-10-10 18:29:25 UTC</createdTime>
+<ownerDesignName>Practica_1_Moto_GP</ownerDesignName>
+<engineerTo>
+<item key="35E8AB23-E148-1F47-393E-32BB2F829D3B" value="true"/>
+</engineerTo>
+<sourcePk>42BE3426-833B-2AF0-5580-BB5B950C2365</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>TRABAJA</nameOnSource>
+<nameOnTarget>PERTENECE A</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20472498-C64E-AA12-A0E5-2F9518706D20</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>99DDBCEC-66B7-10A6-37D7-02BDE3918C65</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
