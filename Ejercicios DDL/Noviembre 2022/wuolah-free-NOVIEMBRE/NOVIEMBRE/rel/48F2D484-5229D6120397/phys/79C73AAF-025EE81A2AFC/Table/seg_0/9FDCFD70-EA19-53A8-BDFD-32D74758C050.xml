@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPARTAMENTO" directorySegmentName="seg_0" id="9FDCFD70-EA19-53A8-BDFD-32D74758C050">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<schemaObject>71389D57-F2E5-8229-E406-76EAF2C3DBD6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>14A0F82D-8838-33C0-F2F5-32F2FC429117</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="2B77143A-550A-B14C-F941-7102BC10D76B">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="55E510AE-E3A9-1142-CEDA-C6E6D3FCB307">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRIGIDO_POR" id="EBE22650-0F70-BFC1-652C-80DAE8D3E8E3">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPARTAMENTO_UK1" id="D98B8671-206E-D4A1-1E45-1BE8D7DE5448">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<schemaObject>71389D57-F2E5-8229-E406-76EAF2C3DBD6</schemaObject>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPARTAMENTO_FK1" id="98553158-0C0E-8A8A-2494-24E9740D5E1E">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:22 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPARTAMENTO_PK" id="FE016206-8A6F-C2C7-845B-7CE79B166762">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<schemaObject>71389D57-F2E5-8229-E406-76EAF2C3DBD6</schemaObject>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+<indexSegment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="DEPARTAMENTO_UK1" id="ABC0379A-C292-9317-729A-6073783DDF5E">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+<existingIndex>D98B8671-206E-D4A1-1E45-1BE8D7DE5448</existingIndex>
+<indexSegment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

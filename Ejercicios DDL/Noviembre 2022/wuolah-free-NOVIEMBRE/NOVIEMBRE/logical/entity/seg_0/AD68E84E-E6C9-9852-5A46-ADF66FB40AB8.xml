@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD68E84E-E6C9-9852-5A46-ADF66FB40AB8" name="DOCENCIA">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>BE2C3B46-894A-B8C5-B524-95144C00AADE</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CURSOACADEMICO" id="44D52E70-143D-ADE7-63C4-255E216F9A41">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>1BF17143-977A-38CC-73D4-F0C55F930352</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREDITOSIMPARTIDOS" id="521B8719-AC76-CF93-9139-26A969C889A5">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>30BC8A57-0C9C-7DE6-EA7F-1C4CF0A44CD7</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROFESOR ID" id="467A8659-F42C-A3E3-B84E-CD3CAC9259A1">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>85ACEBC4-4D1A-4B5D-684D-BBEB6A71B73D</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<referedAttribute>D65C25D7-B77E-4E34-E78F-A9A82F37D4E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ASIG CODIGO" id="E617F295-97D8-4A5A-3881-C0ACFEA84005">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>1F4A495B-E5C0-E58C-3181-FACDE9A37B23</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<referedAttribute>3DD54D31-7A6E-A311-0BB2-C9468D147D67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D847A983-4C81-D2A4-1866-D92CC072515F" name="DOCENCIA PK">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>EBD6E7C8-0E91-7BEE-C1A7-D1F348F99C43</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44D52E70-143D-ADE7-63C4-255E216F9A41</attributeRef>
+<attributeRef>E617F295-97D8-4A5A-3881-C0ACFEA84005</attributeRef>
+<attributeRef>467A8659-F42C-A3E3-B84E-CD3CAC9259A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

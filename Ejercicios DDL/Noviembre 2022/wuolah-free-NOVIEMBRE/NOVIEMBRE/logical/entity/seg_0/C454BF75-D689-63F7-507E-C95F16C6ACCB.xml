@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C454BF75-D689-63F7-507E-C95F16C6ACCB" name="DEPARTAMENTO">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>9FDCFD70-EA19-53A8-BDFD-32D74758C050</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO" id="890C6BBD-809E-16E7-2128-AF79A5F7DFCF">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>55E510AE-E3A9-1142-CEDA-C6E6D3FCB307</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="9C29ED08-115E-199D-B46F-57ABA0ED13BC">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>2B77143A-550A-B14C-F941-7102BC10D76B</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRIGIDO POR" id="0EF78C9D-9609-0841-FC9E-CF58A3CC1CB0">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>7DC030D1-52B1-70F3-6B63-1713FEF1FAD6</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<referedAttribute>D65C25D7-B77E-4E34-E78F-A9A82F37D4E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5471442-CFB5-289F-A9D0-1363F61423ED" name="DEPARTAMENTO PK">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>FE016206-8A6F-C2C7-845B-7CE79B166762</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>890C6BBD-809E-16E7-2128-AF79A5F7DFCF</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DB7AC128-4DBC-0207-8E21-39936FF986E2" name="DEPARTAMENTO UK1">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>ABC0379A-C292-9317-729A-6073783DDF5E</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>0EF78C9D-9609-0841-FC9E-CF58A3CC1CB0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

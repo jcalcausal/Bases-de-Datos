@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37CC817A-CA8F-CF20-F0F1-6F83470AE5D4" name="PROFESORADO">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>5399120F-59D1-030B-BE6A-7CF86222583E</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D65C25D7-B77E-4E34-E78F-A9A82F37D4E6">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>F819C709-4E1C-D751-9571-39E9A765458D</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="115770F5-ADE6-C548-DB0E-7551D7CD2937">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>1592DA2D-E628-D462-CAE6-7AAE77F9FFD8</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="F31137FA-87B3-DCC6-47E5-F8DC77E03F8F">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>D9DDD429-7A37-E880-EA37-74F4F3C66351</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREOE" id="80BC57A9-4BDE-B127-CECF-58A5E7F8B79A">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>DCBBE036-6854-E802-666A-F7AF9BBD16E5</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DPTO CODIGO" id="736CAC97-27E2-A413-0799-137EABC96993">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>301F70A9-4AFE-77D2-AF5D-8194D034F11C</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<referedAttribute>890C6BBD-809E-16E7-2128-AF79A5F7DFCF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C50F84E9-302A-4DD5-8BA0-C687F349A1A2" name="PROFESORADO UK1">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>22118F4E-AC12-3B5B-C149-239726D07A1A</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>115770F5-ADE6-C548-DB0E-7551D7CD2937</attributeRef>
+<attributeRef>F31137FA-87B3-DCC6-47E5-F8DC77E03F8F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="93FBBA8E-55C6-736E-5960-40699D62E054" name="SYS C00520384">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>76F0C17A-9D8B-D2EA-0216-4D7414AC6101</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D65C25D7-B77E-4E34-E78F-A9A82F37D4E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

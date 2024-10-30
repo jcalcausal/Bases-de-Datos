@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FDCFD70-EA19-53A8-BDFD-32D74758C050" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="DEPARTAMENTO">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>DEPARTAMENTO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="55E510AE-E3A9-1142-CEDA-C6E6D3FCB307">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="2B77143A-550A-B14C-F941-7102BC10D76B">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRIGIDO_POR" id="EBE22650-0F70-BFC1-652C-80DAE8D3E8E3">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>DEPARTAMENTO</sourceObjSchema>
+<sourceObjName>DIRIGIDO_POR</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3302BE01-6C18-1546-6963-63C5D462FE82" referredColumn="F819C709-4E1C-D751-9571-39E9A765458D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE016206-8A6F-C2C7-845B-7CE79B166762" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="DEPARTAMENTO_PK">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>SYS_C00520386</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55E510AE-E3A9-1142-CEDA-C6E6D3FCB307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABC0379A-C292-9317-729A-6073783DDF5E" name="DEPARTAMENTO_UK1">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>DEPARTAMENTO_UK1</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBE22650-0F70-BFC1-652C-80DAE8D3E8E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D98B8671-206E-D4A1-1E45-1BE8D7DE5448" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="DEPARTAMENTO_UK1">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>DEPARTAMENTO_UK1</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBE22650-0F70-BFC1-652C-80DAE8D3E8E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98553158-0C0E-8A8A-2494-24E9740D5E1E" name="DEPARTAMENTO_FK1">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:22 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBE22650-0F70-BFC1-652C-80DAE8D3E8E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC74F828-1E49-A6AF-357E-85B496D20F13" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="GRADO">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>GRADO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="CADF2DCE-A5D4-A850-0210-568B19976FCD">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>GRADO</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREDITOS_TOTALES" id="B821EE92-0252-E8C7-0463-15A44B3591B9">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>GRADO</sourceObjSchema>
+<sourceObjName>CREDITOS_TOTALES</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<constraintName>GRADO_CHK1</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="CREDITOS_TOTALES &gt;= 180 AND CREDITOS_TOTALES &lt;=360"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="CREDITOS_TOTALES &gt;= 180 AND CREDITOS_TOTALES &lt;=360"/>
+</checkConstraint>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="0F722BF3-589E-F054-F708-72DDCDB2137B">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>GRADO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD8090C2-B5E0-397D-1BD7-43EC86873AFA" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="GRADO_PK">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>SYS_C00520382</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CADF2DCE-A5D4-A850-0210-568B19976FCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

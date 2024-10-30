@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CED9513F-3236-3504-A00F-131A19218128" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="ASIGNATURA">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>ASIGNATURA</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="4792AE4A-B1C9-F76A-EA29-0C4EC6D66E3B">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="B6CC2999-BB13-3054-0C36-E460EB5E9384">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REFERENCIA" id="F6CC1BCD-6CA6-9E0F-EB59-A80D5BF3D441">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>REFERENCIA</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO" id="93B89000-FE7A-9820-9462-48F5AEBFD591">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>CURSO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUATRIMESTRE" id="C0537BD0-FD30-A2F1-5F82-89B5D651687E">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>CUATRIMESTRE</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<constraintName>ASIGNATURA_CHK1</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="CUATRIMESTRE=1 OR CUATRIMESTRE=2"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="CUATRIMESTRE=1 OR CUATRIMESTRE=2"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADO_CODIGO" id="202FCE00-E1B9-AD10-21DC-AEB37F1D2EA5">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>GRADO_CODIGO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F8126A6-41DB-D229-8A79-0C5616286D5F" referredColumn="CADF2DCE-A5D4-A850-0210-568B19976FCD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44BDDCAA-7DC0-C71C-8A44-26C2770CCE23" name="ASIGNATURA_PK">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>ASIGNATURA_PK</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4792AE4A-B1C9-F76A-EA29-0C4EC6D66E3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C08757A-120C-6353-F584-11442BA1EDBE" name="ASIGNATURA_UK1">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>ASIGNATURA_UK1</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6CC1BCD-6CA6-9E0F-EB59-A80D5BF3D441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37D46CE2-4727-61C6-B888-A7EFD75F23E3" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="ASIGNATURA_PK">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>ASIGNATURA_PK</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4792AE4A-B1C9-F76A-EA29-0C4EC6D66E3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A35E95FF-B05B-3B9E-7AB8-4A740D3F8262" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="ASIGNATURA_UK1">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>ASIGNATURA_UK1</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6CC1BCD-6CA6-9E0F-EB59-A80D5BF3D441"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE134F16-4500-E8CB-8766-79EF27F68C95" name="SYS_C00520388">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:22 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="202FCE00-E1B9-AD10-21DC-AEB37F1D2EA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

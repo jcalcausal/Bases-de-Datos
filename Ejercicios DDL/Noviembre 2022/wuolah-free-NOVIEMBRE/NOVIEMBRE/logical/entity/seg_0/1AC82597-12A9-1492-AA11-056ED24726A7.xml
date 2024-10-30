@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1AC82597-12A9-1492-AA11-056ED24726A7" name="PSI">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>EEE7B566-79BB-216C-3DB6-E0194A654630</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="19D8C06D-DE4E-E82D-1F94-3A192B7C51F0">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>302C5A31-2A0D-D3B0-1E17-94D854F6C387</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<referedAttribute>D65C25D7-B77E-4E34-E78F-A9A82F37D4E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA FIN CONTRATO" id="575F56DB-133D-23D5-F061-7FFAAECFF9C3">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>91E0199C-2248-72CF-95B4-91F6B5A6CCDB</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68DBCAF5-7AF1-DC06-A0D2-4BD1E832BFC6" name="PSI PK">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>7C5541C1-CD23-D329-7390-3710139EF884</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19D8C06D-DE4E-E82D-1F94-3A192B7C51F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

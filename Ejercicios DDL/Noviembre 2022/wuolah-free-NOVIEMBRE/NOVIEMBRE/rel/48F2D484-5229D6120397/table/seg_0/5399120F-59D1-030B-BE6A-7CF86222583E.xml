@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5399120F-59D1-030B-BE6A-7CF86222583E" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="PROFESORADO">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>PROFESORADO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F819C709-4E1C-D751-9571-39E9A765458D">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>PROFESORADO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="1592DA2D-E628-D462-CAE6-7AAE77F9FFD8">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>PROFESORADO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="D9DDD429-7A37-E880-EA37-74F4F3C66351">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>PROFESORADO</sourceObjSchema>
+<sourceObjName>APELLIDOS</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREOE" id="DCBBE036-6854-E802-666A-F7AF9BBD16E5">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>PROFESORADO</sourceObjSchema>
+<sourceObjName>CORREOE</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DPTO_CODIGO" id="FE144CBE-D975-312D-6DAB-258D57A80A4E">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>PROFESORADO</sourceObjSchema>
+<sourceObjName>DPTO_CODIGO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31954C91-145C-018E-7458-9175DDDFC37E" referredColumn="55E510AE-E3A9-1142-CEDA-C6E6D3FCB307"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76F0C17A-9D8B-D2EA-0216-4D7414AC6101" name="SYS_C00520384">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>SYS_C00520384</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F819C709-4E1C-D751-9571-39E9A765458D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22118F4E-AC12-3B5B-C149-239726D07A1A" name="PROFESORADO_UK1">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>PROFESORADO_UK1</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1592DA2D-E628-D462-CAE6-7AAE77F9FFD8"/>
+<colUsage columnID="D9DDD429-7A37-E880-EA37-74F4F3C66351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E8193A8-FCEE-1DCC-37E0-1174BE9D92BF" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="PROFESORADO_UK1">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>PROFESORADO_UK1</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1592DA2D-E628-D462-CAE6-7AAE77F9FFD8"/>
+<colUsage columnID="D9DDD429-7A37-E880-EA37-74F4F3C66351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5429042F-E45F-64F1-6627-5DA741803960" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="SYS_C00520384">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>SYS_C00520384</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F819C709-4E1C-D751-9571-39E9A765458D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="568AEEC2-26E0-8345-ED7B-B758CE424CD5" name="PROFESORADO_FK1">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:22 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE144CBE-D975-312D-6DAB-258D57A80A4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

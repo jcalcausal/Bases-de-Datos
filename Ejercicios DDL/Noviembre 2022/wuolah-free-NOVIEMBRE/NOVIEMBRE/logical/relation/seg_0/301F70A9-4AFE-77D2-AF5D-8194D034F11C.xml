@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROFESORADO_FK1" directorySegmentName="seg_0" id="301F70A9-4AFE-77D2-AF5D-8194D034F11C">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>31954C91-145C-018E-7458-9175DDDFC37E</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<sourcePk>E5471442-CFB5-289F-A9D0-1363F61423ED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C454BF75-D689-63F7-507E-C95F16C6ACCB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37CC817A-CA8F-CF20-F0F1-6F83470AE5D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

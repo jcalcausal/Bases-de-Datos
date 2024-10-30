@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2D7294C-F8A5-1828-4766-53D77A42E69A" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="GRADUADO">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>GRADUADO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRADO_CODIGO" id="118A0AD1-2C95-F449-D770-83FD8776EB41">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>GRADUADO</sourceObjSchema>
+<sourceObjName>GRADO_CODIGO</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0B2C422-DBBE-CD03-D879-13C38C0ADF71" referredColumn="CADF2DCE-A5D4-A850-0210-568B19976FCD"/>
+</associations>
+</Column>
+<Column name="PROFESOR_ID" id="8D14AB12-7969-1F3F-3CC5-B48C60BA3A8A">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>GRADUADO</sourceObjSchema>
+<sourceObjName>PROFESOR_ID</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A28C4C2-30B8-227B-1A8A-3D0CB581CBB6" referredColumn="4CEE3374-5902-FED2-91A1-7C530FF3EEAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74B94D66-DD05-6ECE-4D33-B9FE19015450" name="GRADUADO_PK">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>GRADUADO_PK</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="118A0AD1-2C95-F449-D770-83FD8776EB41"/>
+<colUsage columnID="8D14AB12-7969-1F3F-3CC5-B48C60BA3A8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96A85103-410F-AEE0-F2F3-6C1FA5CD6EA8" schemaObject="71389D57-F2E5-8229-E406-76EAF2C3DBD6" name="GRADUADO_PK">
+<sourceConnName>BD_NOVIEMBRE</sourceConnName>
+<sourceObjSchema>NIIA3G097</sourceObjSchema>
+<sourceObjName>GRADUADO_PK</sourceObjName>
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="118A0AD1-2C95-F449-D770-83FD8776EB41"/>
+<colUsage columnID="8D14AB12-7969-1F3F-3CC5-B48C60BA3A8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C67869F-3306-23A9-81F1-3BCF2FCE2BCF" name="GRADUADO_FK1">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:22 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="118A0AD1-2C95-F449-D770-83FD8776EB41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="661F570D-30AB-271A-E20B-73C92D597CE8" name="GRADUADO_FK2">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:22 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D14AB12-7969-1F3F-3CC5-B48C60BA3A8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ASIGNATURA" directorySegmentName="seg_0" id="CED9513F-3236-3504-A00F-131A19218128">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<schemaObject>71389D57-F2E5-8229-E406-76EAF2C3DBD6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>14A0F82D-8838-33C0-F2F5-32F2FC429117</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GRADO_CODIGO" id="202FCE00-E1B9-AD10-21DC-AEB37F1D2EA5">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="4792AE4A-B1C9-F76A-EA29-0C4EC6D66E3B">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURSO" id="93B89000-FE7A-9820-9462-48F5AEBFD591">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="B6CC2999-BB13-3054-0C36-E460EB5E9384">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUATRIMESTRE" id="C0537BD0-FD30-A2F1-5F82-89B5D651687E">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REFERENCIA" id="F6CC1BCD-6CA6-9E0F-EB59-A80D5BF3D441">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ASIGNATURA_PK" id="37D46CE2-4727-61C6-B888-A7EFD75F23E3">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<schemaObject>71389D57-F2E5-8229-E406-76EAF2C3DBD6</schemaObject>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ASIGNATURA_UK1" id="A35E95FF-B05B-3B9E-7AB8-4A740D3F8262">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<schemaObject>71389D57-F2E5-8229-E406-76EAF2C3DBD6</schemaObject>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C00520388" id="EE134F16-4500-E8CB-8766-79EF27F68C95">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:22 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ASIGNATURA_PK" id="44BDDCAA-7DC0-C71C-8A44-26C2770CCE23">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+<existingIndex>37D46CE2-4727-61C6-B888-A7EFD75F23E3</existingIndex>
+<indexSegment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ASIGNATURA_UK1" id="8C08757A-120C-6353-F584-11442BA1EDBE">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+<existingIndex>A35E95FF-B05B-3B9E-7AB8-4A740D3F8262</existingIndex>
+<indexSegment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

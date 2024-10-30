@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DOCENCIA_FK2" directorySegmentName="seg_0" id="85ACEBC4-4D1A-4B5D-684D-BBEB6A71B73D">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>BD8D7E48-0188-E718-1B15-71A653F537FD</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<sourcePk>93FBBA8E-55C6-736E-5960-40699D62E054</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>37CC817A-CA8F-CF20-F0F1-6F83470AE5D4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AD68E84E-E6C9-9852-5A46-ADF66FB40AB8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

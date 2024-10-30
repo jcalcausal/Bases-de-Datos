@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PROFESORADO" directorySegmentName="seg_0" id="5399120F-59D1-030B-BE6A-7CF86222583E">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<schemaObject>71389D57-F2E5-8229-E406-76EAF2C3DBD6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>14A0F82D-8838-33C0-F2F5-32F2FC429117</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="1592DA2D-E628-D462-CAE6-7AAE77F9FFD8">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDOS" id="D9DDD429-7A37-E880-EA37-74F4F3C66351">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREOE" id="DCBBE036-6854-E802-666A-F7AF9BBD16E5">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="F819C709-4E1C-D751-9571-39E9A765458D">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DPTO_CODIGO" id="FE144CBE-D975-312D-6DAB-258D57A80A4E">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PROFESORADO_UK1" id="4E8193A8-FCEE-1DCC-37E0-1174BE9D92BF">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<schemaObject>71389D57-F2E5-8229-E406-76EAF2C3DBD6</schemaObject>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C00520384" id="5429042F-E45F-64F1-6627-5DA741803960">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<schemaObject>71389D57-F2E5-8229-E406-76EAF2C3DBD6</schemaObject>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PROFESORADO_FK1" id="568AEEC2-26E0-8345-ED7B-B758CE424CD5">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:22 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SYS_C00520384" id="76F0C17A-9D8B-D2EA-0216-4D7414AC6101">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+<existingIndex>5429042F-E45F-64F1-6627-5DA741803960</existingIndex>
+<indexSegment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PROFESORADO_UK1" id="22118F4E-AC12-3B5B-C149-239726D07A1A">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:21 UTC</createdTime>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<segment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</segment>
+<tableSpace>45E52D67-07C1-10D8-052F-9259827A6DB7</tableSpace>
+<existingIndex>4E8193A8-FCEE-1DCC-37E0-1174BE9D92BF</existingIndex>
+<indexSegment>67C690AE-A82B-67DB-C5EB-6DE9E30E2639</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

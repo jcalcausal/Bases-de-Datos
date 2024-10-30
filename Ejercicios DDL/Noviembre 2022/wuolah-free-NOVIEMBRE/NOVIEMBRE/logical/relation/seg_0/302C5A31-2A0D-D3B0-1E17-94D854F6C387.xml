@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PSI_FK1" directorySegmentName="seg_0" id="302C5A31-2A0D-D3B0-1E17-94D854F6C387">
+<createdBy>alumno</createdBy>
+<createdTime>2022-11-02 08:26:28 UTC</createdTime>
+<generatorID>5922BEC8-7A92-8525-F4CB-472047DA3445</generatorID>
+<ownerDesignName>NOVIEMBRE</ownerDesignName>
+<engineerTo>
+<item key="48F2D484-E7E5-380C-1D18-5229D6120397" value="true"/>
+</engineerTo>
+<sourcePk>93FBBA8E-55C6-736E-5960-40699D62E054</sourcePk>
+<dominantRole>37CC817A-CA8F-CF20-F0F1-6F83470AE5D4</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>37CC817A-CA8F-CF20-F0F1-6F83470AE5D4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1AC82597-12A9-1492-AA11-056ED24726A7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
